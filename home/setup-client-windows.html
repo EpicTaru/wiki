@@ -12,19 +12,19 @@ dateCreated: 2021-07-31T00:51:51.573Z
 <p>&nbsp;</p>
 <h6>Requirements</h6>
 <ol>
-  <li>Fast internet connection.</li>
-  <li>Admin rights on the machine.</li>
-  <li>At least 10GB available.</li>
-  <li>Know how to use Windows File Explorer.</li>
-  <li>Know how to run .exe files as an administrator.</li>
-  <li>Know how to use Windows Powershell as an administrator.</li>
+  <li>Fast internet connection</li>
+  <li>Admin rights on the machine</li>
+  <li>At least 10GB available</li>
+  <li>Know how to use Windows File Explorer</li>
+  <li>Know how to run .exe files as an administrator</li>
+  <li>Know how to use Windows Powershell as an administrator</li>
   <li>Know how to use Windows Command Prompt</li>
 </ol>
 <p>&nbsp;</p>
 <h6>Game - Installation Steps</h6>
 <ol>
-  <li>Download <a href="http://www.playonline.com/ff11us/download/media/install_win.html">installer files (download all of them to the same folder!)</a>.</li>
-  <li>Run <strong>FFXIFullSetup_US.part1.exe</strong> to decompress installer files</li>
+  <li>Download the <a href="http://www.playonline.com/ff11us/download/media/install_win.html">installer files (download all of them to the same folder!)</a>.</li>
+  <li>Run <strong>FFXIFullSetup_US.part1.exe</strong> to decompress the installer files.</li>
   <li>Run <strong>FFXISETUP.exe</strong> after decompression completes to begin installing Final Fantasy XI (FFXI) and PlayOnline (POL).</li>
   <li>To avoid possible future issues with allowing FFXI to access/modify its own files, it is best to install FFXI and POL to a folder of its own on your computer.
   <li>Make sure to <strong>install everything</strong> that prompts on the installer.</li>
@@ -55,13 +55,14 @@ dateCreated: 2021-07-31T00:51:51.573Z
 <h6>Game - Update Steps (manual)</h6>
 <ul>
   <li>Browse using “File Explorer” and go to C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI</li>
-  <li>Create a new file called file.txt</li>
-  <li>Open file.txt and populate it with the info below, then save it. <mark class="pen-red">Make sure to also add a 3rd empty line.</mark></li>
-</ul>
+  <li>Create a new file called <strong>file.txt</strong></li>
+  <li>Open <strong>file.txt</strong> with some type of text editor, such as Windows Notepad or Notepad++, and populate it with the info below, <mark class="pen-red">Make sure to also add a 3rd empty line.</mark></li>.
+  </ul>
 <pre><code class="language-plaintext">123456:654321:FTABLE.DAT
 ::
 </code></pre>
 <ul>
+  <li>Save the file and close the text editor.</li>
   <li>Open Playonline once more and choose <strong>Check Files</strong>.</li>
   <li>On the next screen, make sure you change the <strong>Playonline-compatible software</strong> choice to <strong>FINAL FANTASY XI</strong>.</li>
   <li>Click on <strong>Check Files</strong> to repair the files.</li>
@@ -76,7 +77,7 @@ dateCreated: 2021-07-31T00:51:51.573Z
 <ol>
   <li>Download <a href="https://github.com/LandSandBoat/xiloader/releases">XiLoader.exe</a> <strong>into a directory of its own</strong>.</li>
   <li>Open Command Prompt with <strong>Administrative-level</strong> privileges.</li>
-  <li>Find the folder where you downloaded XILoader.exe and run it as follows</li>
+  <li>Find the folder where you downloaded XILoader.exe and run it as follows:</li>
 </ol>
 <pre><code class="language-plaintext">xiloader.exe --server xiweb.catsangel.com</code></pre>
 <p>&nbsp;</p>
@@ -99,25 +100,25 @@ dateCreated: 2021-07-31T00:51:51.573Z
 <h6>Windower (a bootloader that includes a variety of addons/plugins to enhance your playing experience) (more geared towards players on retail FFXI but can also be used for private servers like XIWeb)</h6>
 <ol>
   <li>Download <a href="https://update.windower.net/live/windower.msi">Windower.msi</a> <strong>into a directory of its own</strong>.</li>
-  <li>Run Windower.msi with <strong>Administrative-level</strong> privileges.  Windower will install to a folder of your choice (best to use the folder you downloaded Windower.msi into)</li>
+  <li>Run Windower.msi with <strong>Administrative-level</strong> privileges.  Windower will install to a folder of your choice (best to use the folder you downloaded Windower.msi into).</li>
   <li>Navigate to the folder you installed Windower into and run Windower.exe with <strong>Administrative-level</strong> privileges. Windower will download all other necessary files and then present you with the Windower launcher.</li>
-  <li>In the Windower Launcher, click on the <strong>+</strong> in the bottom-left of the Ashita Launcher window to create a new profile.</li>
-  <li>Give the new profile a name (click on the <strong>New Profile 1</strong> and change it to a new name of your choice) and then click on the <strong>left-pointing arrow</strong> in the upper-left corner of the profile. (Make sure to remember the name you gave the profile)</strong></li>
+  <li>In the Windower launcher, click on the <strong>+</strong> in the bottom-left of the Windower launcher window to create a new profile.</li>
+  <li>Give the new profile a name (click on the <strong>New Profile 1</strong> and change it to xiweb or whatever name you wish) and then click on the <strong>left-pointing arrow</strong> in the upper-left corner of the profile. (Make sure to remember the name you gave the profile)</strong>.</li>
   <li><strong>Close the Windower launcher.</strong></li>
-  <li>Download <a href="https://github.com/LandSandBoat/xiloader/releases">XiLoader.exe</a> into the <strong>PlayOnlineViewer</strong> sub-folder of the SquareEnix subfolder of your PlayOnline folder on your computer (created in the Game - Installation steps at the top of this page) .</li>
-  <li>An example of the above would be: <code>C:\PlayOnline\SquareEnix\PlayOnlineViewer</code></li> &larr; this is only an example, this may not be the path to yours, adjust as necessary!
+  <li>Download <a href="https://github.com/LandSandBoat/xiloader/releases">XiLoader.exe</a> into the <strong>PlayOnlineViewer</strong> sub-folder of the SquareEnix subfolder of your PlayOnline folder on your computer (created in the Game - Installation steps at the top of this page).</li>
+  <li>An example of the above would be: <code>C:\PlayOnline\SquareEnix\PlayOnlineViewer</code> &larr; this is only an example, this may not be the path to yours, adjust as necessary!</li>
   <li>Navigate to the folder that you installed Windower into and open <strong>settings.xml</strong> with some type of text editor, such as Windows Notepad or Notepad++.</li>
   <li>You'll need to add the <executable>XiLoader.exe</executable> to every profile (including the profile you just created) you see in settings.xml, as well as the <args> </args> with your server information and login.</li>
-  <li>Here is an example profile (you can copy and paste the below code block into the file):</li>
+  <li>Here is an example profile (you can copy and paste the below code block into the file if you wish):</li>
 <pre><code>  &lt;profile name="xiweb"&gt;
     &lt;consolekey&gt;Insert&lt;/consolekey&gt;
     &lt;args&gt;--server xiweb.catsangel.com&lt;/args&gt;
     &lt;executable&gt;DRIVE_LETTER:\path\to\xiloader.exe&lt;/executable&gt;
   &lt;/profile&gt;
 </code></pre>
-  <li>Note the <code>path\to\</code> portion in the <code>&lt;executable&gt;</code> section cannot contain spaces and cannot be a relative path.</li>
-  <li>An example of the path is: <code>&lt;executable&gt;C:\PlayOnline\SquareEnix\PlayOnlineViewer\&lt;/executable&gt;</code></li> &larr; this is only an EXAMPLE, this may not be the path to yours, adjust as necessary!
-  <li><strong>Make sure you save changes to the file and then exit out of the text editor completely.</strong></li>
+  <li>Note: The <code>path\to\</code> portion in the <code>&lt;executable&gt;</code> line <strong>cannot</strong> contain spaces and <strong>cannot</strong> be a relative path.</li>
+  <li>An example of the <code>&lt;executable&gt;</code> line is: <code>&lt;executable&gt;C:\PlayOnline\SquareEnix\PlayOnlineViewer\&lt;/executable&gt;</code></li> &larr; this is only an EXAMPLE, this may not be the path to yours, adjust as necessary!
+  <li><strong>Make sure you save changes to the file and then exit out of the text editor completely</strong>.</li>
   <li>Launch Windower again.</li>
   <li>Double-click on the name that you gave for the configuration you just made (in the Windower launcher) to launch the bootloader.</li>
   <li>If this is your first time playing on XIWeb, you will need to create an account and a password and use such to connect to XIWeb.</li>
